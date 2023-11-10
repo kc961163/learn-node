@@ -17,7 +17,7 @@ someAsyncOperation(() => {
   const startCallback = Date.now();
   console.log('someAsyncOperation');
   // do something that will take 10ms...
-  while (Date.now() - startCallback < 10) {
+  while (Date.now() - startCallback < 150) {
     // do nothing
   }
 });
